@@ -6,12 +6,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
     integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rock+Salt&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Swarm</title>
 </head>
 
-<body>
+<body class="container-fluid bg text-center text-light">
 
+  <div class="col-12 special-font p-5 fs-1">Swarm</div>
+
+  <section class="row p-3 text-center justify-content-center">
+    <div id="timer" class="col-12 fs-1 fw-bold timer-font"></div>
+    <section class="row">
+
+      <div class="col-6">
+        <div class="card-style">
+          <p class="mb-0 fs-1">🏤</p>
+          <p class="mb-0">Post Office</p>
+          <p id="🏤"></p>
+          <button onclick="attack('🏤')" class="m-3 btn btn-danger">ATTACK</button>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card-style">
+          <p class="mb-0 fs-1">🏥</p>
+          <p class="mb-0">Hospital</p>
+          <p id="🏥"></p>
+          <button onclick="attack('🏥')" class="m-3 btn btn-danger">ATTACK</button>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card-style">
+          <p class="mb-0 fs-1">🏭</p>
+          <p class="mb-0">Factory</p>
+          <p id="🏭"></p>
+          <button onclick="attack('🏭')" class="m-3 btn btn-danger">ATTACK</button>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card-style">
+          <p class="mb-0 fs-1">🏢</p>
+          <p class="mb-0">Office</p>
+          <p id="🏢"></p>
+          <button onclick="attack('🏢')" class="m-3 btn btn-danger">ATTACK</button>
+
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card-style">
+          <p class="mb-0 fs-1">🏣</p>
+          <p class="mb-0">Museum</p>
+          <p id="🏣"></p>
+          <button onclick="attack('🏣')" class="m-3 btn btn-danger">ATTACK</button>
+
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="card-style ">
+          <p class="mb-0 fs-1">🏠</p>
+          <p class="mb-0">House</p>
+          <p id="🏠"></p>
+          <button onclick="attack('🏠')" class="m-3 btn btn-danger">ATTACK</button>
+        </div>
+      </div>
+
+      <div class="col-12 special-font">
+        BEWARE the vampire hunter
+      </div>
+    </section>
+
+
+  </section>
+
+  <script src="app.js"></script>
 </body>
 
 </html>

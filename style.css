@@ -1,0 +1,20 @@
+.bg {
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
+.card-style {
+  background-color: rgba(50, 50, 50, 0.7);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.timer-font {
+  font-family: 'Oswald', sans-serif;
+}
+
+.special-font {
+  font-family: 'Rock Salt', cursive;
+}
